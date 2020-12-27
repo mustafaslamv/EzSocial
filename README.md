@@ -1,4 +1,3 @@
-# EzSocial
 ![alt text](https://github.com/mustafaslamv/EzSocial/blob/main/images/logo.png?raw=true)
 Description:
 
