@@ -1,0 +1,141 @@
+*{transition:all 0.05s ease-in-out;}
+html{  scroll-behavior: smooth;
+}
+body{
+    padding: 15px ;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #ffffff;
+    color: #212121;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+.container{
+
+  height: 100px;
+  width: 100%;
+  background-color: #212121	;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+}
+
+nav{
+float:left;
+padding-left: 10px;
+}
+
+
+nav ul li{
+  display: inline-block; 
+  padding:10px;
+  font-size: 20px; 
+  font-family:raleway;
+}
+
+nav li a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+nav li a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+nav li a:hover {
+    text-decoration: underline;
+    color: #ff3e5b ;
+  }
+  
+
+article {
+   width: 95%;
+}
+aside{
+  position: fixed;
+   top: 20px;
+   right: 10px;
+}
+aside li{
+  list-style-type: none;
+
+}
+aside li a:link{   
+  text-decoration: none;
+  color: white;
+}
+aside li a:visited{
+  text-decoration: none;
+  color: white;
+}
+aside li a:hover{
+  text-decoration: none;
+  color: white;
+}
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+.emoji{
+  font-size: 25px;
+}
+.fa-home{
+  background: #212121;
+  color: white;
+}
+fieldset{
+  border-width:6px;
+  border-color: #212121;
+  width: 95%;
+}
+article{
+  background-color: #212121;
+  color: #ffffff;
+  padding: 10px;
+ margin-top: 30px;
+ border-radius: 20px;
+}
+.imagesize{
+  width: 100%;
+  height: auto;
+}
