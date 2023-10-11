@@ -1,20 +1,13 @@
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 $(document).ready(function() {
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
-      // Prevent default anchor click behavior
       event.preventDefault();
-
-      // Store hash
       var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 800, 'swing', function() {
-        // Add hash (#) to URL when done scrolling (default click behavior)
+      }, 800, 'easeOutBounce', function() {
         window.location.hash = hash;
       });
     }
